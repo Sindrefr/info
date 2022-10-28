@@ -1,82 +1,95 @@
-body{
-    background-color: rgb(85, 113, 153);
+body {
+  background-color: rgb(85, 113, 153);
 }
-h1{ 
-    font-family: 'DM Sans', sans-serif;
-    font-size: 2.5rem;
-    color: white;
+
+h1 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 2.5rem;
+  color: white;
 }
-h2{
-    font-family: 'DM Sans', sans-serif;
-    color: white;
+
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  color: white;
 }
-h3{
-    color: white;
-    font-size: 3rem;
-    text-align: center;
+
+h3 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
 }
+
 .container-fluid {
-    padding: 3% 15% 7%;
-    text-align: center;
-  }
-.navbar{
-    justify-content: center;
-    padding-bottom: 100px;
+  padding: 3% 15% 7%;
+  text-align: center;
 }
-  .navbar-brand {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 7rem;
-  }
-  .icons{
-    margin-top: 60px;
-    color: rgb(160, 154, 154);
-    font-size: 12rem;
-    margin-bottom: 20px;
-  }
-  .black{
-    color: black;
-  }
-  .red{
-    color: rgb(32, 34, 146);
-  }
-  
-  /* Weather forecast*/
-  .container{
-    max-width: 500px;
-    max-height: 00px;
+
+.navbar {
+  justify-content: center;
+  padding-bottom: 100px;
 }
-.icon{
-    position: relative;
-    top: -50px;
-    border-radius: 50%;
-    width: 100px;
-    margin-bottom: -50px;
-  }
-  .change-location{
-    font-size: 1.5rem;
-    color: white;
-  }
-  #clock {
-    padding-top: 2rem;
-    font-size: 10rem;
-    font-family: ubuntu;
-    color: white;
-    text-align: center;
-  }
-  #footer {
-    position: relative;
-    margin-top: 750px;
-    padding: 3% 6%;
-    text-align: center;
-    background-color: #284054;
-    color: white;
-  }
-  #footer2 {
-    position: relative;
-    margin-top: 100px;
-    padding: 3% 6%;
-    text-align: center;
-    background-color: #284054;
-    color: white;
-  }
-  
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 7rem;
+}
+
+.icons {
+  margin-top: 60px;
+  color: rgb(160, 154, 154);
+  font-size: 12rem;
+  margin-bottom: 20px;
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: rgb(32, 34, 146);
+}
+
+/* Weather forecast*/
+.container {
+  max-width: 500px;
+  max-height: 00px;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+
+.enter-amount {
+  font-size: 1.5rem;
+  color: white;
+}
+
+#clock {
+  padding-top: 2rem;
+  font-size: 10rem;
+  font-family: ubuntu;
+  color: white;
+  text-align: center;
+}
+
+#footer {
+  position: relative;
+  margin-top: 750px;
+  padding: 3% 6%;
+  text-align: center;
+  background-color: #284054;
+  color: white;
+}
+
+#footer2 {
+  position: relative;
+  margin-top: 100px;
+  padding: 3% 6%;
+  text-align: center;
+  background-color: #284054;
+  color: white;
+}

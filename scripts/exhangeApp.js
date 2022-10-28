@@ -1,18 +1,13 @@
-const amountForm = document.querySelector("#convert")
-const fromForm = document.querySelector("#from")
-const toForm = document.querySelector("#to")
-amountForm.getElementsByID("convert", e => {
-    e.preventDefault();
-    console.log("submit event fired");
-    console.log(amountForm["amount"].value)
-});
-fromForm.addEventListener("submit", e => {
-    e.preventDefault();
-    console.log("submit event fired");
-    console.log(fromForm["amount"].value)
-});
-toForm.addEventListener("submit", e => {
-    e.preventDefault();
-    console.log("submit event fired");
-    console.log(toForm["amount"].value)
+const amountForm = document.querySelector("#amountForm");
+const fromForm = document.querySelector("#fromForm");
+const toForm = document.querySelector("#toForm");
+const buttonPress = document.querySelector("#buttonPress");
+
+buttonPress.addEventListener("click", e => {
+    e.preventDefault;
+    amountForm.value;
+    fromForm.value;
+    toForm.value;
+    data = amountForm.value + fromForm.value + toForm.value;
+    return data;
 });

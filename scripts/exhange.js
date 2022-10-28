@@ -7,7 +7,9 @@ let requestOptions = {
   headers: myHeaders
 };
 
-fetch("ttps://api.apilayer.com/exchangerates_data/convert?to=USD&from=EUR&amount=5", requestOptions)
+const add = `?to=${data[2]}&from=${data[1]}&amount=${data[0]}`;
+
+fetch("https://api.apilayer.com/exchangerates_data/convert", add, requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));

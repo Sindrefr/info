@@ -25,25 +25,21 @@
             <a class="navbar-brand" href="../index.html">Info site</a>
         </nav>
         <h3>Exchange rates</h3>
-        <h2>!!in progress!!</h2>
-        <form id="convert" method="post" type="submit" class="change-location my-4 text-center">
+        <form method="post" type="submit" class="enter-amount my-4 text-center">
             <label for="amount">Enter amount you want to exchange</label>
-            <input type="text" name="amount" class="form-control p-4">
-        </form>
-        <form id="from" method="post" type="submit" class="change-location my-4 text-center">
+            <input id="amountForm" type="number" name="amount" class="form-control p-4">
+
             <label for="from">Enter from currency</label>
-            <input type="text" name="from" class="form-control p-4">
-        </form>
-        <form id="to" method="post" type="submit" class="change-location my-4 text-center">
+            <input id="fromForm" type="text" name="from" class="form-control p-4">
+
             <label for="to">Enter to currency</label>
-            <input type="text" name="to" class="form-control p-4">
-            <input type="submit" value="submit">
+            <input id="toForm" type="text" name="to" class="form-control p-4">
+            <button name="button" type="button" id="buttonPress">Submit</button>
         </form>
     </div>
-
     <div id="footer">
         <footer>
             <p>© Copyright 2022 Sindre Frøysa </p>
         </footer>
-    </div>
+
 </body>
