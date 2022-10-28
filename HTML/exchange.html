@@ -15,7 +15,7 @@
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
     </style>
     <link rel="stylesheet" href="../CSS/styles.css">
-    <script src="../scripts/main.js" defer></script>
+    <script src="../scripts/exhangeApp.js" defer></script>
     <script src="../scripts/exhange.js" defer></script>
 </head>
 
@@ -25,6 +25,20 @@
             <a class="navbar-brand" href="../index.html">Info site</a>
         </nav>
         <h3>Exchange rates</h3>
+        <h2>!!in progress!!</h2>
+        <form id="convert" method="post" type="submit" class="change-location my-4 text-center">
+            <label for="amount">Enter amount you want to exchange</label>
+            <input type="text" name="amount" class="form-control p-4">
+        </form>
+        <form id="from" method="post" type="submit" class="change-location my-4 text-center">
+            <label for="from">Enter from currency</label>
+            <input type="text" name="from" class="form-control p-4">
+        </form>
+        <form id="to" method="post" type="submit" class="change-location my-4 text-center">
+            <label for="to">Enter to currency</label>
+            <input type="text" name="to" class="form-control p-4">
+            <input type="submit" value="submit">
+        </form>
     </div>
 
     <div id="footer">
