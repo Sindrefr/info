@@ -25,16 +25,14 @@
             <a class="navbar-brand" href="../index.html">Info site</a>
         </nav>
         <h3>Exchange rates</h3>
-        <form method="post" type="submit" class="enter-amount my-4 text-center">
+        <form id= "convert" method="post" type="submit" class="enter-amount my-4 text-center">
             <label for="amount">Enter amount you want to exchange</label>
-            <input id="amountForm" type="number" name="amount" class="form-control p-4">
-
+            <input id="amount" type="number" name="amount" class="form-control p-4">
             <label for="from">Enter from currency</label>
-            <input id="fromForm" type="text" name="from" class="form-control p-4">
-
+            <input id="from" type="text" name="from" class="form-control p-4">
             <label for="to">Enter to currency</label>
-            <input id="toForm" type="text" name="to" class="form-control p-4">
-            <button name="button" type="button" id="buttonPress">Submit</button>
+            <input id="to" type="text" name="to" class="form-control p-4">
+            <input type="submit" value="convert">
         </form>
     </div>
     <div id="footer">
@@ -43,3 +41,4 @@
         </footer>
 
 </body>
+
