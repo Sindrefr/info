@@ -2,7 +2,7 @@ const amountForm = document.querySelector("#amount");
 const fromCurrington = document.querySelector("#from");
 const toCurrington = document.querySelector("#to");
 const form = document.querySelector("#convert");
-const output = document.getElementById("output")
+const output = document.getElementById("output");
 
 form.addEventListener("submit", e => {
     e.preventDefault();
@@ -10,7 +10,6 @@ form.addEventListener("submit", e => {
     to = to.value;
     amount = amount.value;
     convert(to, from, amount)
-    return from, to, amount;
 });
 
 
@@ -26,6 +25,6 @@ let requestOptions = {
 async function convert(to, from, amount){
   fetch("https://api.apilayer.com/exchangerates_data/convert?to=" + to + "&from=" + from + "&amount=" + amount,  requestOptions)
     .then(res => res.json())
-    .then(result => output.innerText = result.result)
+    .then(result => output.innerText = amount + " " + from.toUpperCase() + " = " +  result.result + " " + to.toUpperCase())
     .catch(err => console.log(err));
 }
